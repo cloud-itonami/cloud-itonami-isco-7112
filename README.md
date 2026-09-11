@@ -11,7 +11,7 @@ This repository designs a forkable OSS business for a bricklaying job-site sched
 (`bricklaying.governor`), following the itonami actor pattern
 (ADR-2607121000): `:intake -> :advise -> :govern -> :decide -+-> :commit
 (:ok?) +-> :request-approval (:escalate?, human-in-the-loop interrupt)
-+-> :hold (:hard?)`. 21 tests / 45 assertions green (`clojure -M:test`).
++-> :hold (:hard?)`. 21 tests / 45 assertions green (`kbb -M:test`).
 HARD invariants (always hold, never overridable): worker provenance,
 site provenance, no-actuation (`:effect` must be `:propose`), a closed
 op-allowlist (`:log-work-record`, `:schedule-crew-operation`,
