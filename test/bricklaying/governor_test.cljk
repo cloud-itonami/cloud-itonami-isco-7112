@@ -1,5 +1,5 @@
 (ns bricklaying.governor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [bricklaying.store :as store]
             [bricklaying.advisor :as advisor]
             [bricklaying.governor :as governor]))

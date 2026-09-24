@@ -1,5 +1,5 @@
 (ns bricklaying.actor-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [bricklaying.actor :as actor]
             [bricklaying.store :as store]))
 
