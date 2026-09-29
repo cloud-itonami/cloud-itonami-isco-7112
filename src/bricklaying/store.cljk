@@ -1,6 +1,6 @@
 (ns bricklaying.store
   "SSoT for the ISCO-08 7112 masonry job-site scheduling/logistics
-  coordination actor (itonami actor pattern, ADR-2607121000 / CLAUDE.md
+  coordination actor (itonami actor pattern, ADR-2607121000 / AGENTS.md
   Actors section; README's 'Robotics premise' — a masonry job-site
   scheduling/logistics coordination robot performs crew scheduling,
   task/materials-usage/progress-record logging and masonry-materials
